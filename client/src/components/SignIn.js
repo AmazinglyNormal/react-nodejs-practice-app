@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SignIn = () => {
   return (
-    <div className="form-container">
+    <div className="container">
       <form className="form">
         <label className="input-label" htmlFor="email">
           Email

@@ -37,7 +37,7 @@
   color: black;
 }
 
-.form-container {
+.container {
   width: 400px;
   margin: 90px auto;
   border: 1px solid gray;
@@ -67,6 +67,8 @@
 
 .btn {
   height: 44px;
+  width: 100%;
+  max-width: 400px;
   margin: 16px 0;
   background-color: #2e73db;
   color: white;
@@ -93,3 +95,55 @@
 .sub-message-link:hover {
   color: #1d64cf;
 }
+
+.posts-section {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.post-btn {
+  margin: 0 auto;
+}
+
+.post-body {
+  border-bottom: 1px solid gray;
+}
+
+.post-title {
+  margin: 16px 0;
+}
+
+.post-content {
+  margin-bottom: 16px;
+}
+
+.comment-title {
+  margin: 16px 0;
+}
+
+.comment {
+  border-bottom: 1px solid gray;
+}
+
+.comment-body {
+  margin: 16px 0;
+}
+
+.comment-author {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.timestamp {
+  font-weight: normal;
+}
+
+/* .comment-btn */
