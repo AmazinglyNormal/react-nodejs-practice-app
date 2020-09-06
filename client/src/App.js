@@ -18,9 +18,9 @@ function App() {
           <Route path="/SignUp">
             <SignUp />
           </Route>
-          {/* <Route path="/SignIn">
+          <Route path="/SignIn">
             <SignIn />
-          </Route> */}
+          </Route>
         </Switch>
       </Router>
     </Fragment>
