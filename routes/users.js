@@ -22,4 +22,8 @@ router.post("/", async (req, res) => {
   res.send("Successfully signed up");
 });
 
+router.post("/", (req, res) => {});
+
+router.post("/:id", (req, res) => {});
+
 module.exports = router;
